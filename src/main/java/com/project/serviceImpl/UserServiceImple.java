@@ -21,7 +21,7 @@ public class UserServiceImple implements UserService{
 		
 		List<User> userList = userMapper.selectListUser();
 		
-		System.out.println("## userList 갯수 ttttt = "+userList.size());
+		System.out.println("##ㅁㅇㄴㄹ userList 갯수 ttttt = "+userList.size());
 		
 	}
 
