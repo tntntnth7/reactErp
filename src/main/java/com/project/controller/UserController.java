@@ -22,8 +22,8 @@ public class UserController {
 		
 		// log 사용법
 		LOGGER.info("## UserController ##");
-		LOGGER.debug("## DEBUG ##");
-        LOGGER.error("## Error ##");
+		//LOGGER.debug("## DEBUG ##");
+        //LOGGER.error("## Error ##");
         
 		userService.selectListUser();
 		
